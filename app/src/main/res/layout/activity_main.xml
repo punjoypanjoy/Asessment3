@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.ncorti.slidetoact.SlideToActView
+        android:id="@+id/slideToAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        app:area_margin="4dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        app:animation_duration="250"
+        app:outer_color="@color/blue"
+        app:inner_color="@color/white"
+        app:text="Slide To Open "
+        app:text_size="25sp"
+        app:text_style="bold"
+        app:slider_height="80dp"
+        app:slider_locked="false"
+        app:bounce_on_start="true"
+
+        />
+
+
+
+</RelativeLayout>
+
